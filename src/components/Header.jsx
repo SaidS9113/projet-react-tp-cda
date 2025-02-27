@@ -1,13 +1,11 @@
 import React from 'react';
-import Header from './components/Header';
 
-function App() {
+const Header = () => {
   return (
-    <div className="App">
-      <Header />
-      <p>Bienvenue sur mon application React !</p>
-    </div>
+    <header>
+      <h1>Mon Application React</h1>
+    </header>
   );
-}
+};
 
-export default App;
+export default Header;
